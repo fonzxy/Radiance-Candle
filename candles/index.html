@@ -1,11 +1,10 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-     <meta charset="UTF-8">
+    <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title> About | Radiance Candle</title>
+    <title> Radiance Candle </title>
     <style>
-    
     
     /* reset margin & padding */
     * {
@@ -31,8 +30,8 @@
         font-size: 15px;
         margin-bottom: 0;
     }
-	
-	/* brand image */
+    
+    /* brand image */
     .brandpic {
        text-align: center;
     }
@@ -75,6 +74,7 @@
         background-color: #b7b7a4;
     }
     
+    
     /* profile and cart */
     .profile .cart {
       float: right;
@@ -93,8 +93,74 @@
       clear: both;
       display: table;
     }
+
+	
+
+    /* homepage image */
+    .image1 {
+        padding: 10px;
+        position: relative;
+    }
     
-	 /*  socials */
+    .image1 .btnshop {
+      position: absolute;
+      top: 90%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      transform: translate(-50%, -50%);
+      background-color: #e6ccb2;
+      color: #774936;
+      font-size: 16px;
+      padding: 12px 24px;
+      border: none;
+      cursor: pointer;
+      border-radius: 30px;
+    }
+    
+    .image1 .btnshop:hover {
+        background-color: #7f5539;
+        color: white;
+    }
+    
+    /* phrase */
+    .phrase {
+        text-align: center;
+        color: #665e51;
+        font-family: Verdana;
+        font-size: 20px;
+        padding-right: 60 ;
+        padding-left: 60;
+        line-height: 2.5;
+        word-spacing: 3px;
+    }
+    
+    /* about us */
+    .aboutbtn {
+    display: block;
+    margin: 0 auto;
+    padding: 15px 30px;
+    font-size: 1.2em;
+    background-color: #7f5539; 
+    color: #fff;
+    border: none;
+    border-radius: 40px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    }
+    
+    .aboutbtn:hover {
+        background-color: #e6ccb2; 
+        color: black;
+    }
+    
+    /*  special */
+    .special {
+        text-align: center;
+        padding-bottom: 70px;
+    }
+    
+    
+     /*  socials */
     .socials {
         background-color: #665e51;
         text-align: center;
@@ -112,20 +178,19 @@
         font-size: 8px;
         color: white;
     }
-        
-  
+    
     </style>
 </head>
 <body>
-
+    
     <!-- header -->
     <header class="header">
         <p> Welcome! Save ₱400.00 if you buy 3 pieces of scented candles.</p>
     </header>
-	
-	<!-- brand image -->
+   
+    <!-- brand image -->
    <div class="brandpic"> 
-    <img src ="name.png" alt"shop name" width="50%" height="50%">
+    <img src ="name.png" alt="shop name" width="50%" height="50%">
    </div>
    
    
@@ -164,34 +229,46 @@
        
        
    </pre>
-   <hr>
+    <hr>
     
     
-    
-    
-    
-    <!-- image1 -->
-    <div class="01">
+
+   <!-- homepage image --> 
+   <div class="image1">
+       <img src="hpimg1.png" alt="hp" width="100%" height="100%">
+       <button class="btnshop" onclick="document.location='shop.html'"> SHOP NOW </button>
+   </div>
+   
+   
+   <!-- phrase   -->
+   <pre>
+       
+       
+       
+   </pre>
+  <p class="phrase"> Discover the art of indulgence with Radiance Candle. <br>
+  Each candle in our collection is a masterpiece, meticulously  <br>
+  crafted to captivate your senses and elevate your surroundings. </p>
     <pre>
        
-      
-   </pre>
-     <img src ="01.png" alt"pic1" width="100%" height="100%">
-     <pre>
        
-      
-     </pre> 
-     <img src ="02.png" alt"pic1" width="100%" height="100%">
-     <pre>
        
-      
    </pre>
-        
-        
-    </div>
-    
-	
-	 <!-- socials & emails  -->
+   
+   <!-- about btn  -->
+   <button class="aboutbtn" onclick="document.location='about.html'">ABOUT US</button>
+   <pre>
+       
+       
+       
+   </pre>
+   
+   <!-- special  -->
+   <div class="special"> 
+    <img src="special.png" alt="sand" width="100%" height="100%">
+   </div>
+   
+    <!-- socials & emails  -->
     
     <div class="socials">
     <pre>
@@ -205,14 +282,10 @@
     </div>
     
     
-	<!-- footer  -->
+    <!-- footer  -->
     <footer class="footer">
         &copy; 2024 Radiance Candle. All rights reserved.
     </footer>
-
-
-
-
-
+    
 </body>
 </html>

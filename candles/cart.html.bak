@@ -274,6 +274,14 @@
     
     <!-- JavaScript section -->
     <script>
+	 // Retrieve username from local storage and display it
+        const username = localStorage.getItem("username");
+        if (username) {
+            document.getElementById("username").textContent = username;
+        }
+        
+        // Your existing JavaScript logic for the cart functionality
+        // Ensure that your JavaScript code for handling cart items is properly included here
     // JavaScript logic here
 
     const listofRadianceCandleItems = [
