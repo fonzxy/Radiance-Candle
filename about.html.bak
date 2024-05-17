@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+     <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> About | Radiance Candle</title>
+    <style>
+    
+    
+    /* reset margin & padding */
+    * {
+        margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    }
+    
+    /* body */
+    body {
+        background-color: #ffedd8;
+    }
+    
+    /* header */
+    .header {
+    background-color: #665e51;
+    color: #fff;
+    text-align: center;
+    padding: 2px;
+    }
+    
+    .header p {
+        font-size: 15px;
+        margin-bottom: 0;
+    }
+	
+	/* brand image */
+    .brandpic {
+       text-align: center;
+    }
+    
+    /* hr */
+    hr {
+    border: 0;
+    height: 1px;
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0));
+    opacity: 0.2;
+    }
+
+    /* nav bar */
+        .top-nav {
+        text-align: center;
+        padding: 0;
+    }
+    
+    .top-nav ul {
+        list-style-type: none;
+        padding: 0;
+        margin: 0;
+    }
+    
+    .top-nav ul li {
+        display: inline-block;
+    }
+    
+    .top-nav ul li a {
+        display: block;
+        padding: 20px 30px;
+        color: #665e51;
+        text-decoration: none;
+        font-size: 16px;
+        font-family: Georgia;
+        border-radius: 70px ;
+    }
+    
+    .top-nav ul li a:hover {
+        background-color: #b7b7a4;
+    }
+    
+    /* profile and cart */
+    .profile .cart {
+      float: right;
+      width: 33.3%;
+      padding: 30px;
+      
+    }
+    
+    .cart {
+       padding-right: 90px;
+    }
+
+    
+    .profile .cart::after {
+      content: "";
+      clear: both;
+      display: table;
+    }
+    
+	 /*  socials */
+    .socials {
+        background-color: #665e51;
+        text-align: center;
+        font-family: Arial;
+        font-size: 16px;
+        color: white;
+        
+    }
+ 
+      /*  special */
+    .footer {
+        background-color: #665e51;
+        text-align: center;
+        font-family: Arial;
+        font-size: 8px;
+        color: white;
+    }
+        
+  
+    </style>
+</head>
+<body>
+
+    <!-- header -->
+    <header class="header">
+        <p> Welcome! Save ₱400.00 if you buy 3 pieces of scented candles.</p>
+    </header>
+	
+	<!-- brand image -->
+   <div class="brandpic"> 
+    <img src ="name.png" alt"shop name" width="50%" height="50%">
+   </div>
+   
+   
+   <pre>
+       
+   </pre>
+   
+    <!-- nav bar --> 
+   <nav class="top-nav">
+        <ul>
+            <li><a href="homepage.html">HOME </a></li>
+            <li><a href="shop.html">SHOP </a></li>
+            <li><a href="about.html">ABOUT </a></li>
+        </ul>
+    </nav>
+    
+    
+    <!-- profile and cart -->
+    <div class="pc">
+        <a href="cart.html"> 
+            <div class="cart">
+                <img src="cart.png" alt="profile" width="3%" height="3%" align="right">    
+            </div>
+        </a>
+        
+        <a href="profile.html"> 
+            <div class="profile">
+                <img src="profile.png" alt="profile" width="3%" height="3%" align="right">
+            </div>
+        </a>
+    </div>
+    
+    <!-- hr -->
+    <pre>
+       
+       
+       
+   </pre>
+   <hr>
+    
+    
+    
+    
+    
+    <!-- image1 -->
+    <div class="01">
+    <pre>
+       
+      
+   </pre>
+     <img src ="01.png" alt"pic1" width="100%" height="100%">
+     <pre>
+       
+      
+     </pre> 
+     <img src ="02.png" alt"pic1" width="100%" height="100%">
+     <pre>
+       
+      
+   </pre>
+        
+        
+    </div>
+    
+	
+	 <!-- socials & emails  -->
+    
+    <div class="socials">
+    <pre>
+       
+      
+   </pre>
+        <p> FOLLOW US ON OUR SOCIAL MEDIA ACCOUNTS </p>
+        <a href="#">
+            <img border="0" alt="facebook" src="soc.png" width="40%" height="40%">
+        </a>
+    </div>
+    
+    
+	<!-- footer  -->
+    <footer class="footer">
+        &copy; 2024 Radiance Candle. All rights reserved.
+    </footer>
+
+
+
+
+
+</body>
+</html>

@@ -1,0 +1,385 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Shopping Cart | Radiance Candle </title>
+    <!-- Add any necessary styles here -->
+    <style>
+        /* reset margin & padding */
+    * {
+        margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    }
+    
+    /* body */
+    body {
+        background-color: #ffedd8;
+    }
+    
+    /* header */
+    .header {
+    background-color: #665e51;
+    color: #fff;
+    text-align: center;
+    padding: 2px;
+    }
+    
+    .header p {
+        font-size: 15px;
+        margin-bottom: 0;
+    }
+    
+    /* brand image */
+    .brandpic {
+       text-align: center;
+    }
+    
+    /* hr */
+    hr {
+    border: 0;
+    height: 1px;
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0));
+    opacity: 0.2;
+    }
+
+    /* nav bar */
+        .top-nav {
+        text-align: center;
+        padding: 0;
+    }
+    
+    .top-nav ul {
+        list-style-type: none;
+        padding: 0;
+        margin: 0;
+    }
+    
+    .top-nav ul li {
+        display: inline-block;
+    }
+    
+    .top-nav ul li a {
+        display: block;
+        padding: 20px 30px;
+        color: #665e51;
+        text-decoration: none;
+        font-size: 16px;
+        font-family: Georgia;
+        border-radius: 70px ;
+    }
+    
+    .top-nav ul li a:hover {
+        background-color: #b7b7a4;
+    }
+    
+    /* profile and cart */
+    .profile .cart {
+      float: right;
+      width: 33.3%;
+      padding: 30px;
+      
+    }
+    
+    .cart {
+       padding-right: 90px;
+    }
+
+    
+    .profile .cart::after {
+      content: "";
+      clear: both;
+      display: table;
+    }
+    
+    .btnout {
+        background-color: #5c5449;
+        border: none;
+        color: white;
+        text-decoration: none;
+        font-size: 16px;
+        padding: 14px 40px;
+        border-radius: 20px;
+        cursor: pointer;
+    }
+    
+    .btnout:hover {
+        opacity: 0.6;
+    }
+    
+    h1 {
+        color: #665e51 ;
+        font-family: Georgia;
+        letter-spacing: 5px;
+    }
+    
+    	 /*  socials */
+    .socials {
+        background-color: #665e51;
+        text-align: center;
+        font-family: Arial;
+        font-size: 16px;
+        color: white;
+        
+    }
+ 
+      /*  special */
+    .footer {
+        background-color: #665e51;
+        text-align: center;
+        font-family: Arial;
+        font-size: 8px;
+        color: white;
+    }
+	
+	/* cart items */
+	.cart-item {
+		font
+		border-radius: 20px;
+		padding: 10px;
+		margin-bottom: 10px;
+		background-color: #ffedd8;
+	}
+
+	/* remove button */
+	.remove-button {
+		background-color: #665e51;
+		border: none;
+		border-radius: 30px;
+		color: white;
+		padding: 5px 15px;
+		cursor: pointer;
+		font-size: 16px;
+		font-family: Georgia;
+	}
+
+	.remove-button:hover {
+		opacity: 0.8;
+	}
+	
+	/* Your cart is empty message */
+	.empty-cart-message {
+		font-size: 16px;
+		font-family: Georgia;
+		color: #665e51;
+		text-align: center;
+		margin-top: 20px;
+	}
+		
+    
+    </style>
+</head>
+<body>
+    <!-- header -->
+    <header class="header">
+        <p> Welcome! Save ₱400.00 if you buy 3 pieces of scented candles.</p>
+    </header>
+
+		<!-- brand image -->
+   <div class="brandpic"> 
+    <img src ="name.png" alt="shop name" width="50%" height="50%">
+   </div>
+
+	 <pre>
+       
+   </pre>
+    
+    <!-- nav bar --> 
+   <nav class="top-nav">
+        <ul>
+            <li><a href="index.html">HOME </a></li>
+            <li><a href="shop.html">SHOP </a></li>
+            <li><a href="about.html">ABOUT </a></li>
+        </ul>
+    </nav>
+
+   <!-- profile and cart -->
+    <div class="pc">
+        <a href="cart.html"> 
+            <div class="cart">
+                <img src="cart.png" alt="profile" width="3%" height="3%" align="right">    
+            </div>
+        </a>
+        
+        <a href="profile.html"> 
+            <div class="profile">
+                <img src="profile.png" alt="profile" width="3%" height="3%" align="right">
+            </div>
+        </a>
+    </div>
+
+	 <!-- hr -->
+    <pre>
+       
+       
+       
+   </pre>
+    <hr>
+    
+        <!-- cart page -->
+
+        <center>
+    <pre>
+        
+        
+        
+    </pre>
+    <h1> Cart Page </h1>
+	<div id="cartItems" class="empty-cart-message">Your cart is empty</div>
+      <div id="cartItems"></div>
+      <p id="totalPrice"></p>
+    <p id="cartItemCount"></p>
+	
+	
+    
+    <pre>
+        
+        
+        
+    </pre>
+    <button class="btnout" onclick="checkout()">Checkout</button>
+        </center>
+        
+         <pre>
+       
+       
+       
+       
+      
+         </pre>
+        
+        
+        
+     <!-- socials & emails  -->
+    
+    <div class="socials">
+    <pre>
+       
+      
+   </pre>
+        <p> FOLLOW US ON OUR SOCIAL MEDIA ACCOUNTS </p>
+        <a href="#">
+            <img border="0" alt="facebook" src="soc.png" width="40%" height="40%">
+        </a>
+    </div>
+    
+    
+	<!-- footer  -->
+    <footer class="footer">
+        &copy; 2024 Radiance Candle. All rights reserved.
+    </footer>
+
+    
+    
+    <!-- JavaScript section -->
+    <script>
+	 // Retrieve username from local storage and display it
+        const username = localStorage.getItem("username");
+        if (username) {
+            document.getElementById("username").textContent = username;
+        }
+        
+        // Your existing JavaScript logic for the cart functionality
+        // Ensure that your JavaScript code for handling cart items is properly included here
+    // JavaScript logic here
+
+    const listofRadianceCandleItems = [
+        "Autumn Latte Candle",
+        "Pumpkin Pie Candle",
+        "Minty Fresh Candle",
+        "Lemon Lavender Candle",
+        "Cherry Fairy Candle",
+        "Cinnamon Rose Candle",
+        "Berry Patch Candle",
+        "Candy Cane Candle",
+        "Pina Colada Candle",
+        "Vanilla Mocha Candle"
+    ]
+
+    window.onload = function() {
+        displayCart();
+    };
+
+    function addToCart(itemName, price) {
+        localStorage.setItem(itemName, price);
+        displayCart();
+    }
+
+    function removeFromCart(itemName) {
+        localStorage.removeItem(itemName);
+        displayCart();
+    }
+
+function displayCart() {
+    const cartItemsElement = document.getElementById('cartItems');
+    const totalPriceElement = document.getElementById('totalPrice');
+    const cartItemCountElement = document.getElementById('cartItemCount');
+
+    let totalPrice = 0;
+    let itemCount = 0;
+
+    // Clear previous items in the cart
+    cartItemsElement.innerHTML = '';
+
+    for (let i = 0; i < localStorage.length; i++) {
+        const possibleValidShopItem = localStorage.key(i);
+        if (listofRadianceCandleItems.includes(possibleValidShopItem)) {
+            const shopItemName = possibleValidShopItem;
+            const price = localStorage.getItem(shopItemName);
+            const cartItem = document.createElement('div');
+            cartItem.classList.add('cart-item'); // Add class for styling
+            cartItem.innerHTML = `
+                <p>Item: ${shopItemName}, Price: ₱${price}</p>
+                <button class="remove-button" onclick="removeFromCart('${shopItemName}')">Remove</button>
+            `;
+            cartItemsElement.appendChild(cartItem);
+            totalPrice += parseFloat(price);
+            itemCount++;
+        }
+    }
+
+    if (itemCount > 0) {
+        totalPriceElement.textContent = `Total Price: ₱${totalPrice.toFixed(2)}`;
+        totalPriceElement.style.fontSize = '16px'; // Set font size to 16px
+        cartItemCountElement.textContent = `Total Items: ${itemCount}`;
+        cartItemCountElement.style.fontSize = '16px'; // Set font size to 16px
+        cartItemsElement.style.color = '#665e51'; // Set color to match the other text
+    } else {
+        cartItemsElement.textContent = 'Your cart is empty';
+        cartItemsElement.style.fontSize = '25px'; // Set font size to 16px
+        cartItemsElement.style.color = '#665e51'; // Set color to match the other text
+        totalPriceElement.textContent = '';
+        cartItemCountElement.textContent = '';
+    }
+}
+    function checkout() {
+    // Retrieve cart items from localStorage
+    const cartItems = [];
+    for (let i = 0; i < localStorage.length; i++) {
+        const itemName = localStorage.key(i);
+        const itemPrice = localStorage.getItem(itemName);
+        cartItems.push({ name: itemName, price: itemPrice });
+    }
+
+    // Create a receipt string
+    let receipt = "Receipt\n\n";
+    cartItems.forEach(item => {
+        receipt += `Item: ${item.name}, Price: ₱${item.price}\n`;
+    });
+    const totalPrice = cartItems.reduce((acc, item) => acc + parseFloat(item.price), 0);
+    receipt += `\nTotal Price: ₱${totalPrice.toFixed(2)}`;
+
+    // Display the receipt
+    alert(receipt);
+
+    // Clear the localStorage and update the cart display
+    localStorage.clear();
+    displayCart();
+
+    // Redirect the user to the checkout page or perform any other checkout actions here
+}
+</script>
+</body>
+</html>
+

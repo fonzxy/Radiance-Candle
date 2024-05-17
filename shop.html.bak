@@ -1,0 +1,424 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+     <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Scented Candles | Radiance Candle</title>
+    <style>
+    
+    
+    /* reset margin & padding */
+    * {
+        margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    }
+    
+    /* body */
+    body {
+        background-color: #ffedd8;
+    }
+    
+    /* header */
+    .header {
+    background-color: #665e51;
+    color: #fff;
+    text-align: center;
+    padding: 2px;
+    }
+    
+    .header p {
+        font-size: 15px;
+        margin-bottom: 0;
+    }
+    
+    /* brand image */
+    .brandpic {
+       text-align: center;
+    }
+    
+    /* hr */
+    hr {
+    border: 0;
+    height: 1px;
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0));
+    opacity: 0.2;
+    }
+
+    /* nav bar */
+        .top-nav {
+        text-align: center;
+        padding: 0;
+    }
+    
+    .top-nav ul {
+        list-style-type: none;
+        padding: 0;
+        margin: 0;
+    }
+    
+    .top-nav ul li {
+        display: inline-block;
+    }
+    
+    .top-nav ul li a {
+        display: block;
+        padding: 20px 30px;
+        color: #665e51;
+        text-decoration: none;
+        font-size: 16px;
+        font-family: Georgia;
+        border-radius: 70px ;
+    }
+    
+    .top-nav ul li a:hover {
+        background-color: #b7b7a4;
+    }
+    
+    /* profile and cart */
+    .profile .cart {
+      float: right;
+      width: 33.3%;
+      padding: 30px;
+      
+    }
+    
+    .cart {
+       padding-right: 90px;
+    }
+
+    
+    .profile .cart::after {
+      content: "";
+      clear: both;
+      display: table;
+    }
+    
+    /* text */
+    .mxs {
+        font-family: Georgia;
+        font-size: 50px;
+        letter-spacing: 10px;
+        text-align: center;
+        color: #665e51;
+        margin-bottom: 50px;
+        margin-top: 50px;
+    }
+    
+    /* candles */
+    .row {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+  }
+  .row img {
+    width: 150px; /* adjust as needed */
+    height: auto;
+    margin: 200px; /* adjust spacing between images */
+    margin-bottom: 2px;
+  }
+   .texti {
+    text-align: center;
+    margin-top: 5px; /* adjust spacing between images and text */
+    color: #665e51 ;
+    font-weight: bold;
+    font-size: 20px;
+    font-family: Georgia;
+    text-decoration: none;
+    cursor: pointer;
+  }
+  
+  
+  .price {
+    text-align: center;
+    font-size: 20px;
+    color: #665e51 ;
+    font-family: Georgia;
+  }
+
+  .row div a {
+      text-decoration: none;
+  } 
+
+
+    /* add to cart Button */
+  .btncart {
+    text-align: center;
+    margin-top: 10px;
+  }
+
+  .btncart button {
+    margin: 5px;
+    padding: 10px 20px;
+    font-size: 16px;
+    border: none;
+    border-radius: 30px;
+    background-color: #665e51;
+    color: white;
+    cursor: pointer;
+  }
+  
+  .btncart:hover {
+      opacity: 0.6
+      
+  }
+  
+     /*  socials */
+    .socials {
+        background-color: #665e51;
+        text-align: center;
+        font-family: Arial;
+        font-size: 16px;
+        color: white;
+        
+    }
+ 
+      /*  special */
+    .footer {
+        background-color: #665e51;
+        text-align: center;
+        font-family: Arial;
+        font-size: 8px;
+        color: white;
+    }
+    
+    
+    
+    
+    </style>
+</head>
+<body>
+    
+    
+    <!-- header -->
+    <header class="header">
+        <p> Welcome! Save ₱400.00 if you buy 3 pieces of scented candles.</p>
+    </header>
+   
+    <!-- brand image -->
+   <div class="brandpic"> 
+    <img src ="name.png" alt="shop name" width="50%" height="50%">
+   </div>
+   
+   
+   <pre>
+       
+   </pre>
+   
+    <!-- nav bar --> 
+   <nav class="top-nav">
+        <ul>
+            <li><a href="homepage.html">HOME </a></li>
+            <li><a href="shop.html">SHOP </a></li>
+            <li><a href="about.html">ABOUT </a></li>
+        </ul>
+    </nav>
+    
+    
+    <!-- profile and cart -->
+    <div class="pc">
+        <a href="cart.html"> 
+            <div class="cart">
+                <img src="cart.png" alt="profile" width="3%" height="3%" align="right">    
+            </div>
+        </a>
+        
+        <a href="profile.html"> 
+            <div class="profile">
+                <img src="profile.png" alt="profile" width="3%" height="3%" align="right">
+            </div>
+        </a>
+    </div>
+    
+    <!-- hr -->
+    <pre>
+       
+       
+       
+   </pre>
+    <hr>
+    
+    <!-- scented candles -->
+    <div class="scphoto">
+       <img src="scentedcan.png" alt="scented" width="100%" height="100%">
+   </div>
+   
+   <!-- text -->
+   <p class="mxs"> RADIANCE SCENTED CANDLES</p>
+   
+   
+   <!-- candles -->
+    <div class="row">
+        <div>
+            <img src="sell.png" alt="Image 1">
+            <a href="#">
+              <div class="texti"> Autumn Latte Candle 5oz </div></a>
+              <div class="price"> ₱ 800</div>
+              <div class="btncart">
+             <button onclick="addToCart('Autumn Latte Candle', 800)"> Add to Cart </button>
+        </div>
+
+        </div>
+        
+        <div>
+            <img src="sell.png" alt="Image 2">
+             <a href="#">
+              <div class="texti"> Pumpkin Pie Candle 5oz </div></a>
+              <div class="price"> ₱ 800</div>
+              <div class="btncart">
+                <a href="cart.html">
+                    <button onclick="addToCart('Pumpkin Pie Candle', 800)"> Add to Cart </button>
+                </a>
+              </div>
+        </div>
+    </div>
+
+    <div class="row">
+        <div>
+            <img src="sell.png" alt="Image 3">
+             <a href="#">
+              <div class="texti"> Minty Fresh Candle 5oz </div></a>
+              <div class="price"> ₱ 800</div>
+              <div class="btncart">
+                <a href="cart.html">
+                    <button onclick="addToCart('Minty Fresh Candle', 800)"> Add to Cart </button>
+                </a>
+              </div>
+        </div>
+        
+        <div>
+            <img src="sell.png" alt="Image 4">
+             <a href="#">
+              <div class="texti"> Lemon Lavander Candle 5oz </div></a>
+              <div class="price"> ₱ 800</div>
+              <div class="btncart">
+                <a href="cart.html">
+                    <button onclick="addToCart('Lemon Lavender Candle', 800)"> Add to Cart </button>
+                </a>
+              </div>
+        </div>
+    </div>
+
+    <div class="row">
+        <div>
+            <img src="sell.png" alt="Image 5">
+              <a href="#">
+              <div class="texti"> Cherry Fairy Candle 5oz </div></a>
+              <div class="price"> ₱ 800</div>
+              <div class="btncart">
+                <a href="cart.html">
+                    <button onclick="addToCart('Cherry Fairy Candle', 800)"> Add to Cart </button>
+                </a>
+              </div>
+        </div>
+        
+        <div>
+            <img src="sell.png" alt="Image 6">
+              <a href="#">
+              <div class="texti"> Cinnamon Rose Candle 5oz </div></a>
+              <div class="price"> ₱ 800</div>
+              <div class="btncart">
+                <a href="cart.html">
+                    <button onclick="addToCart('Cinnamon Rose Candle', 800)"> Add to Cart </button>
+                </a>
+              </div>
+        </div>
+    </div>
+    
+    <div class="row">
+        <div>
+            <img src="sell.png" alt="Image 7">
+              <a href="#">
+              <div class="texti"> Berry Patch Candle 5oz </div></a>
+              <div class="price"> ₱ 800</div>
+              <div class="btncart">
+                <a href="cart.html">
+                    <button onclick="addToCart('Berry Patch Candle', 800)"> Add to Cart </button>
+                </a>
+              </div>
+        </div>
+        
+        <div>
+            <img src="sell.png" alt="Image 8">
+              <a href="#">
+              <div class="texti"> Candy Cane Candle 5oz </div></a>
+              <div class="price"> ₱ 800</div>
+              <div class="btncart">
+                <a href="cart.html">
+                    <button onclick="addToCart('Candy Cane Candle', 800)"> Add to Cart </button>
+                </a>
+              </div>
+        </div>
+    </div>
+    
+    
+    <div class="row">
+        <div>
+            <img src="sell.png" alt="Image 9">
+              <a href="#">
+              <div class="texti"> Pina Colada Candle  5oz </div></a>
+              <div class="price"> ₱ 800</div>
+              <div class="btncart">
+                <a href="cart.html">
+                    <button onclick="addToCart('Pina Colada Candle', 800)"> Add to Cart </button>
+                </a>
+              </div>
+        </div>
+        
+        <div>
+            <img src="sell.png" alt="Image 10">
+              <a href="#">
+              <div class="texti"> Vanilla Mocha Candle 5oz </div></a>
+              <div class="price"> ₱ 800</div>
+              <div class="btncart">
+                <a href="cart.html">
+                    <button onclick="addToCart('Vanilla Mocha Candle', 800)"> Add to Cart </button>
+                </a>
+              </div>
+        </div>
+    </div>
+    
+    
+    <pre>
+       
+      
+      
+      
+      
+   </pre>
+    <!-- end of row -->
+    
+    
+    <!-- socials & emails  -->
+    
+    <div class="socials">
+    <pre>
+       
+      
+   </pre>
+        <p> FOLLOW US ON OUR SOCIAL MEDIA ACCOUNTS </p>
+        <a href="#">
+            <img border="0" alt="facebook" src="soc.png" width="40%" height="40%">
+        </a>
+    </div>
+    
+    
+    <!-- footer  -->
+    <footer class="footer">
+        &copy; 2024 Radiance Candle. All rights reserved.
+    </footer>
+    
+    
+        <!-- JavaScript section -->
+    <script>
+        function addToCart(itemName, price) {
+            localStorage.setItem(itemName, price);
+            window.location.href = 'cart.html';
+        }
+        
+    </script>
+    
+
+</body>
+</html>

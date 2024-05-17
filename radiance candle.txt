@@ -1,0 +1,86 @@
+radiance candle:
+
+
+
+used colors: (warm colors - coolors)
+- ffedd8 (background color)
+- 665e51 (color in header)
+- #5c5449
+
+
+
+
+motto: 
+"Let Radiance Candle Brighten Your Moments"
+
+
+shop phrase:
+Discover the art of indulgence with Radiance Candle. Each candle in our collection is a masterpiece, meticulously crafted to captivate your senses and elevate your surroundings. 
+
+Embrace the allure of Radiance Candle and let the magic unfold in your home, casting a spell of beauty and enchantment with every scent-infused breath.
+
+
+
+
+
+
+candles:
+
+ Price (all 800)
+
+1. Autumn Latte Candle 5oz
+2. Pumpkin Pie Candle 5oz
+3. Minty Fresh Candle 5oz
+4. Lemon Lavander Candle 5oz
+5. Cherry Fairy Candle 5oz
+6. Cinnamon Rose Candle 5oz
+7. Berry Patch Candle 5oz
+8. Candy Cane Candle 5oz
+9. Pina Colada Candle  5oz
+10. Vanilla Mocha Candle 5oz
+
+-description: Scented Candles made of 100% beeswax that sparkles the moment of warmth, serenity, and elegance, enriching lives one gentle glow at a time.
+
+- 45 hours burn time
+- 100% Beeswax
+- Handcrafted
+- High quality fragrance oil
+- Size: 5oz
+- Dimensions: 8.6 cm x 6.2 cm
+- Material: Beeswax
+
+
+
+
+about:
+intro:  "We belief that each candle we offer illuminates spaces while sparking moments of warmth, serenity, and elegance, enriching lives one gentle glow at a time."
+
+
+
+We pride ourselves on offering a truly unique candle experience that goes beyond mere illumination. What sets us apart is our unwavering commitment to quality and craftsmanship. 
+
+
+Each candle is meticulously handcrafted with love and care, using only the finest ingredients sourced from around the world. 
+
+
+From the moment you hold one of our candles in your hands, you'll feel the difference, the weight, the texture, the exquisite scent that fills the air. 
+
+
+The secret ingredient to our success lies in the passion and attention to detail that we pour into every candle we create. Let us illuminate your life with our handcrafted candles, made with love, just for you.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
